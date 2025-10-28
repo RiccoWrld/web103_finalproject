@@ -1,49 +1,81 @@
-# [your app name here]
+🦸‍♂️ HabitHero
 
 CodePath WEB103 Final Project
 
-Designed and developed by: [your names here]
+Designed and developed by: [Team Members: Add Names Here]
 
-🔗 Link to deployed app:
+🔗 Link to deployed app: coming soon
 
-## About
+🧩 About
+📝 Description and Purpose
 
-### Description and Purpose
+HabitHero is a fullstack web app that helps users build and track positive habits through small daily goals. Each completed habit helps the user’s “hero” grow stronger, motivating consistency and self-improvement. The app allows users to add, edit, and delete habits, view progress, and earn virtual achievements for streaks.
 
-[text goes here]
+💡 Inspiration
 
-### Inspiration
+We were inspired by apps like Habitica and Duolingo that combine productivity with fun. Many people struggle to stay consistent, so we wanted to create something that makes tracking habits more engaging — turning discipline into a game.
 
-[text goes here]
+⚙️ Tech Stack
 
-## Tech Stack
+Frontend: React, React Router, Tailwind CSS
+Backend: Express.js, Node.js, PostgreSQL
 
-Frontend:
+🌟 Features
+🧠 Habit Dashboard
 
-Backend:
+Users can view all their habits in one place with progress tracking and streak counts.
 
-## Features
+➕ Add / Edit / Delete Habits
 
-### [Name of Feature 1]
+Users can create new habits, update them, or remove them easily from their dashboard.
 
-[short description goes here]
+🧭 Filter by Category
 
-[gif goes here]
+Users can filter or sort habits by category (e.g. Health, Learning, Mindset).
 
-### [Name of Feature 2]
+🦸 Default Habits on Signup
 
-[short description goes here]
+When a new user creates an account, they automatically get 3 starter habits like “Drink Water,” “Read 10 Minutes,” and “Stretch.”
 
-[gif goes here]
+🔄 Progress Update on Same Page
 
-### [Name of Feature 3]
+Users can mark habits as complete for the day without leaving the dashboard (handled on same page).
 
-[short description goes here]
+💬 Modal Confirmation
 
-[gif goes here]
+A confirmation modal appears when deleting or completing a habit — no page navigation needed.
 
-### [ADDITIONAL FEATURES GO HERE - ADD ALL FEATURES HERE IN THE FORMAT ABOVE; you will check these off and add gifs as you complete them]
+🔥 Bonus (Stretch Features)
 
-## Installation Instructions
+Show motivational quotes or toast messages after completing habits
 
-[instructions go here]
+Progress bar animations for hero level
+
+User login with simple authentication
+
+💻 Installation Instructions
+
+Clone the repository
+
+git clone https://github.com/your-team/habithero.git
+
+
+Install dependencies
+
+cd habithero
+npm install
+cd client
+npm install
+
+
+Create and seed the PostgreSQL database
+
+npm run db:reset
+
+
+Run both servers
+
+npm run dev
+
+
+Open your app at http://localhost:5173
