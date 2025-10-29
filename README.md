@@ -2,7 +2,7 @@
 
 CodePath WEB103 Final Project
 
-Designed and developed by: [Team Members: Add Names Here]
+Designed and developed by: Ricardo Beale, Vitaliy Prymak, Om Patki
 
 🔗 Link to deployed app: coming soon
 
