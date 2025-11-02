@@ -66,8 +66,20 @@ A confirmation modal appears when deleting or completing a habit — no page nav
 ```bash
 git clone https://github.com/your-team/habithero.git
 ```
-### 1. Clone the repository
+### 2. Install dependencies
 ```bash
-git clone https://github.com/your-team/habithero.git
+cd habithero
+npm install
+cd client
+npm install
 ```
-
+### 3. Create and seed the PostgreSQL database
+```bash
+npm run db:reset
+```
+### 4. Run both servers
+```bash
+npm run dev
+```
+### 5. Open the app
+- Visit: http://localhost:5173
