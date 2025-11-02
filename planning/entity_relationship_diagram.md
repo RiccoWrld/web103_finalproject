@@ -33,10 +33,9 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 | user_id      | INTEGER REFERENCES users(id) ON DELETE CASCADE | The user who owns this habit                       |
 | name         | VARCHAR(100)                                   | Habit name (e.g., “Drink Water”)                   |
 | description  | TEXT                                           | Description of the habit                           |
-| category     | VARCHAR(50)                                    | Habit category (Health, Learning, Mindset, etc.)   |
-| frequency    | VARCHAR(20)                                    | How often the habit should be done (daily, weekly) |
-| streak_count | INTEGER DEFAULT 0                              | Consecutive completion streak                      |
-| created_at   | TIMESTAMP DEFAULT NOW()                        | When the habit was created                         |
+| date        | DATE                                            | Date for the tracked habit               |
+| completed   | BOOLEAN DEFAULT FALSE                           | Whether the habit was completed that day |
+
 
 
 ### 📊 Habit Logs Table
@@ -44,8 +43,6 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 | ----------- | ----------------------------------------------- | ---------------------------------------- |
 | id          | SERIAL PRIMARY KEY                              | Unique log ID                            |
 | habit_id    | INTEGER REFERENCES habits(id) ON DELETE CASCADE | Linked habit                             |
-| date        | DATE                                            | Date for the tracked habit               |
-| completed   | BOOLEAN DEFAULT FALSE                           | Whether the habit was completed that day |
 
 
 ### 🏆 Achievements Table
@@ -59,12 +56,12 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 
 
 ### 🏅 User Achievements Table
-| Column Name    | Type                                                  | Description                      |
-| -------------- | ----------------------------------------------------- | -------------------------------- |
-| id             | SERIAL PRIMARY KEY                                    | Unique record ID                 |
-| user_id        | INTEGER REFERENCES users(id) ON DELETE CASCADE        | User who earned this achievement |
-| achievement_id | INTEGER REFERENCES achievements(id) ON DELETE CASCADE | Linked achievement               |
-| earned_at      | TIMESTAMP DEFAULT NOW()                               | When it was unlocked             |
+| Column Name    | Type                                                  | Description                      
+| -------------- | ----------------------------------------------------- | -------------------------------- 
+| id             | SERIAL PRIMARY KEY                                    | Unique record ID                 
+| user_id        | INTEGER REFERENCES users(id) ON DELETE CASCADE        | User who earned this achievement 
+| achievement_id | INTEGER REFERENCES achievements(id) ON DELETE CASCADE | Linked achievement               
+| earned_at      | TIMESTAMP DEFAULT NOW()                               | When it was unlocked             
 
 
 ### 🎖️ Badges Table
