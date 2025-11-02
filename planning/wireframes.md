@@ -14,7 +14,7 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 
 ## Wireframe 1: Landing Page
 
-[👉🏾👉🏾👉🏾 include wireframe 1]
+![alt text](wireframes/LandingPage.png)
 
 ## Wireframe 2: Sign Up Page
 
