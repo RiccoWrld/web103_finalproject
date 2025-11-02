@@ -11,6 +11,7 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 - Profile Page ⭐
 - About Page
 - Contact Page
+- Features Page
 
 ## Wireframe 1: Landing Page
 
