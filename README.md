@@ -65,3 +65,9 @@ A confirmation modal appears when deleting or completing a habit — no page nav
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/your-team/habithero.git
+```
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-team/habithero.git
+```
+
