@@ -7,7 +7,7 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 - Landing Page ⭐
 - Sign Up Page ⭐
 - Login Page ⭐
-- Habit Dashboard Page 
+- Habit Dashboard Page ⭐
 - Profile Page ⭐
 - About Page
 - Contact Page
@@ -23,6 +23,11 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 ## Wireframe 3: Login Page
 
 ![Login Page](wireframes/Login.png)
+
+## Wireframe 4: Habit Dashboard Page
+
+![Habit Dashboard Page](wireframes/HabitsDashboard.png)
+
 
 ## Wireframe 4: Profile Page
 
