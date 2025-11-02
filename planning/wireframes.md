@@ -14,17 +14,17 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 
 ## Wireframe 1: Landing Page
 
-![alt text](wireframes/LandingPage.png)
+![Landing Page](wireframes/LandingPage.png)
 
 ## Wireframe 2: Sign Up Page
 
-[👉🏾👉🏾👉🏾 include wireframe 2]
+![SignUp Page](wireframes/SignUp.png)
 
 ## Wireframe 3: Login Page
 
-[👉🏾👉🏾👉🏾 include wireframe 3]
+![Login Page](wireframes/Login.png)
 
-## Wireframe 4: Habit Dashboard
+## Wireframe 4: Profile Page
 
-[👉🏾👉🏾👉🏾 include wireframe 1]
+![Profile Page](wireframes/ProfilePage.png)
 
