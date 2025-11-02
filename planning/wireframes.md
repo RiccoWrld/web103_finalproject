@@ -7,21 +7,24 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 - Landing Page ⭐
 - Sign Up Page ⭐
 - Login Page ⭐
-- Habit Dashboard ⭐
+- Habit Dashboard Page 
 - Profile Page ⭐
 - About Page
 - Contact Page
 
-## Wireframe 1: [Landing Page]
+## Wireframe 1: Landing Page
 
 [👉🏾👉🏾👉🏾 include wireframe 1]
 
-## Wireframe 2: []
+## Wireframe 2: Sign Up Page
 
 [👉🏾👉🏾👉🏾 include wireframe 2]
 
-## Wireframe 3: [page title]
+## Wireframe 3: Login Page
 
 [👉🏾👉🏾👉🏾 include wireframe 3]
 
-[👉🏾👉🏾👉🏾 include more wireframes as desired]
+## Wireframe 4: Habit Dashboard
+
+[👉🏾👉🏾👉🏾 include wireframe 1]
+
