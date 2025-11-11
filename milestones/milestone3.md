@@ -22,20 +22,20 @@ You will need to reference the GitHub Project Management guide in the course por
 
 ### 1. What went well during this unit?
 
-[👉🏾👉🏾👉🏾 your answer here]
+We were able to set up our project board, create issues, and organize everything clearly. Updating the milestones and tracking progress helped our team stay aligned and understand what still needed to be done.
 
 ### 2. What were some challenges your group faced in this unit?
 
-[👉🏾👉🏾👉🏾 your answer here]
+One challenge was making sure each issue was properly connected to the project board and assigned to the correct milestone. It also took extra time for us to match features with the right categories on our board.
 
 ### Did you finish all of your tasks in your sprint plan for this week? If you did not finish all of the planned tasks, how would you prioritize the remaining tasks on your list?
 
-[👉🏾👉🏾👉🏾 your answer here]
+We finished most tasks, but we still need to finalize the README updates and add the GIFs. We would prioritize completing the README first since it clearly shows our progress and is required for the milestone.
 
 ### Which features and user stories would you consider “at risk”? How will you change your plan if those items remain “at risk”?
 
-[👉🏾👉🏾👉🏾 your answer here]
+The README documentation and GIF creation are currently at risk because they require extra time and coordination. If they remain at risk, we’ll break them into smaller tasks and complete them as individual features are finished instead of waiting until the end.
 
 ### 5. What additional support will you need in upcoming units as you continue to work on your final project?
 
-[👉🏾👉🏾👉🏾 your answer here]
+We may need support with organizing and recording feature GIFs, keeping our project board updated consistently, and making sure our pacing stays aligned with future milestones.
