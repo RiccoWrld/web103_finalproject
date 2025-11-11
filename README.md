@@ -30,11 +30,17 @@ Many people struggle to stay consistent, so we wanted to create something that m
 
 ## 🌟 Features
 
-### 🧠 Habit Dashboard
+### 🧠 Habit Dashboard ✅ 
 Users can view all their habits in one place with progress tracking and streak counts.
 
-### ➕ Add / Edit / Delete Habits
+### ➕ Add / Edit / Delete Habits ✅ 
 Users can create new habits, update them, or remove them easily from their dashboard.
+
+### 🔄 Progress Update on Same Page ✅
+Users can mark habits as complete for the day **without leaving the dashboard** (handled on same page).
+
+### 💬 Modal Confirmation ✅
+A confirmation modal appears when deleting a habit — no page navigation needed.
 
 ### 🧭 Filter by Category
 Users can filter or sort habits by category (e.g. Health, Learning, Mindset).
@@ -44,12 +50,6 @@ When a new user creates an account, they automatically get 3 starter habits like
 - “Drink Water”
 - “Read 10 Minutes”
 - “Stretch”
-
-### 🔄 Progress Update on Same Page
-Users can mark habits as complete for the day **without leaving the dashboard** (handled on same page).
-
-### 💬 Modal Confirmation
-A confirmation modal appears when deleting or completing a habit — no page navigation needed.
 
 ---
 
