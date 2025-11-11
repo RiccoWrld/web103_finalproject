@@ -30,6 +30,12 @@ Many people struggle to stay consistent, so we wanted to create something that m
 
 ## 🌟 Features
 
+### 🪪 Authentication ✅
+Users will be able to create an account, log in, and securely access their personalized habit data.
+
+### 🗂️ Habit Card ✅
+Each habit will be displayed as a card showing its name, progress, category, and completion status, allowing users to easily track and manage their habits.
+
 ### 🧠 Habit Dashboard ✅ 
 Users can view all their habits in one place with progress tracking and streak counts.
 
@@ -42,14 +48,8 @@ Users can mark habits as complete for the day **without leaving the dashboard** 
 ### 💬 Modal Confirmation ✅
 A confirmation modal appears when deleting a habit — no page navigation needed.
 
-### 🧭 Filter by Category
-Users can filter or sort habits by category (e.g. Health, Learning, Mindset).
 
-### 🦸 Default Habits on Signup
-When a new user creates an account, they automatically get 3 starter habits like:
-- “Drink Water”
-- “Read 10 Minutes”
-- “Stretch”
+
 
 ---
 
