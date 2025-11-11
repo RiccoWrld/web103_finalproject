@@ -33,16 +33,13 @@ Many people struggle to stay consistent, so we wanted to create something that m
 ### 🪪 Authentication ✅
 Users will be able to create an account, log in, and securely access their personalized habit data.
 
-### 🗂️ Habit Card ✅
-Each habit will be displayed as a card showing its name, progress, category, and completion status, allowing users to easily track and manage their habits.
-
-### 🧠 Habit Dashboard ✅ 
-Users can view all their habits in one place with progress tracking and streak counts.
+### 🧠 Habit Dashboard with Habit Cards ✅ 
+Users can view all their habits in one place with progress tracking and streak counts. Each habit will be displayed as a card showing its name, progress, category, and completion status, allowing users to easily track and manage their habits.
 
 ### ➕ Add / Edit / Delete Habits ✅ 
 Users can create new habits, update them, or remove them easily from their dashboard.
 
-### 🔄 Progress Update on Same Page ✅
+### 🔄 Mark as Completed on Same Page ✅
 Users can mark habits as complete for the day **without leaving the dashboard** (handled on same page).
 
 ### 💬 Modal Confirmation ✅
