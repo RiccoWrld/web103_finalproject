@@ -32,6 +32,7 @@ Many people struggle to stay consistent, so we wanted to create something that m
 
 ### 🪪 Authentication ✅
 Users will be able to create an account, log in, and securely access their personalized habit data.
+![](gifs/Authentication.gif)
 
 ### 🧠 Habit Dashboard with Habit Cards ✅ 
 Users can view all their habits in one place with progress tracking and streak counts. Each habit will be displayed as a card showing its name, progress, category, and completion status, allowing users to easily track and manage their habits.
