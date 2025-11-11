@@ -14,9 +14,9 @@ You will need to reference the GitHub Project Management guide in the course por
 - [X] In your repo, update the status of issues in your project board.
 - [X] In your repo, create a GitHub Milestone for each final project unit, corresponding to each of the 5 milestones in your `milestones/` directory. 
   - [X] Set the completion percentage of each milestone. The GitHub Milestone for this unit (Milestone 3 - Unit 7) should be 100% completed when you submit for full points.
-- [ ] In `readme.md`, check off the features you have completed in this unit by adding a ✅ emoji in front of the feature's name.
-  - [ ] Under each feature you have completed, include a GIF showing feature functionality.
-- [ ] In this documents, complete all five questions in the **Reflection** section below.
+- [X] In `readme.md`, check off the features you have completed in this unit by adding a ✅ emoji in front of the feature's name.
+  - [X] Under each feature you have completed, include a GIF showing feature functionality.
+- [X] In this documents, complete all five questions in the **Reflection** section below.
 
 ## Reflection
 
@@ -28,11 +28,11 @@ We were able to set up our project board, create issues, and organize everything
 
 One challenge was making sure each issue was properly connected to the project board and assigned to the correct milestone. It also took extra time for us to match features with the right categories on our board.
 
-### Did you finish all of your tasks in your sprint plan for this week? If you did not finish all of the planned tasks, how would you prioritize the remaining tasks on your list?
+### 3. Did you finish all of your tasks in your sprint plan for this week? If you did not finish all of the planned tasks, how would you prioritize the remaining tasks on your list?
 
 We finished most tasks, but we still need to finalize the README updates and add the GIFs. We would prioritize completing the README first since it clearly shows our progress and is required for the milestone.
 
-### Which features and user stories would you consider “at risk”? How will you change your plan if those items remain “at risk”?
+### 4. Which features and user stories would you consider “at risk”? How will you change your plan if those items remain “at risk”?
 
 The README documentation and GIF creation are currently at risk because they require extra time and coordination. If they remain at risk, we’ll break them into smaller tasks and complete them as individual features are finished instead of waiting until the end.
 
