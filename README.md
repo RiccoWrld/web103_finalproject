@@ -42,7 +42,7 @@ Users can view all their habits in one place with progress tracking and streak c
 Users can create new habits, update them, or remove them easily from their dashboard.
 ![](gifs/Add-Edit-Delete-Habits.gif)
 
-### 🔄 Mark as Completed on Same Page ✅
+### 🔄 Mark as Completed ✅
 Users can mark habits as complete for the day **without leaving the dashboard** (handled on same page).
 ![](gifs/Mark-as-Completed.gif)
 
