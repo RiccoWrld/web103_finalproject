@@ -7,6 +7,8 @@ import { Plus } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import AddHabitDialog from "./AddHabitDialog";
 import HabitCard from "./HabitCard";
+import CelebrationModal from "./CelebrationModal";
+import { StreakRecoveryModal } from "./StreakRecoveryModal";
 
 interface HabitListProps {
   userId?: string;
@@ -16,6 +18,17 @@ const HabitList = ({ userId }: HabitListProps) => {
   const { toast } = useToast();
   const queryClient = useQueryClient();
   const [isAddDialogOpen, setIsAddDialogOpen] = useState(false);
+  const [celebrationModal, setCelebrationModal] = useState<{
+    open: boolean;
+    milestone: number;
+    habitName: string;
+  }>({ open: false, milestone: 0, habitName: "" });
+  const [recoveryModal, setRecoveryModal] = useState<{
+    open: boolean;
+    habitName: string;
+    recoveryPlan: string;
+    isLoading: boolean;
+  }>({ open: false, habitName: "", recoveryPlan: "", isLoading: false });
 
   const { data: habits, isLoading } = useQuery({
     queryKey: ["habits", userId],
@@ -54,8 +67,17 @@ const HabitList = ({ userId }: HabitListProps) => {
       
       const today = new Date().toISOString().split('T')[0];
       
+      // Get habit data before making changes
+      const { data: habitBeforeUpdate } = await supabase
+        .from("habits")
+        .select("current_streak, name, category")
+        .eq("id", habitId)
+        .single();
+      
+      const previousStreak = habitBeforeUpdate?.current_streak || 0;
+      
       if (isCompleted) {
-        // Delete the log entry
+        // Delete the log entry (unchecking)
         const { error } = await supabase
           .from("habit_logs")
           .delete()
@@ -64,7 +86,7 @@ const HabitList = ({ userId }: HabitListProps) => {
         
         if (error) throw error;
       } else {
-        // Create a log entry
+        // Create a log entry (checking)
         const { error } = await supabase
           .from("habit_logs")
           .insert({
@@ -75,9 +97,78 @@ const HabitList = ({ userId }: HabitListProps) => {
         
         if (error) throw error;
       }
+
+      // Update habit streaks
+      const { error: streakError } = await supabase.rpc('update_habit_streaks', {
+        p_habit_id: habitId,
+        p_user_id: userId
+      });
+      
+      if (streakError) throw streakError;
+
+      // Get updated habit to check for milestones
+      const { data: updatedHabit } = await supabase
+        .from("habits")
+        .select("*")
+        .eq("id", habitId)
+        .single();
+
+      const newStreak = updatedHabit?.current_streak || 0;
+
+      // Detect streak break (was positive, now 0, and user unchecked)
+      if (isCompleted && previousStreak > 0 && newStreak === 0 && habitBeforeUpdate) {
+        setRecoveryModal({
+          open: true,
+          habitName: habitBeforeUpdate.name,
+          recoveryPlan: "",
+          isLoading: true,
+        });
+
+        // Generate recovery plan asynchronously
+        supabase.functions.invoke('generate-recovery-plan', {
+          body: {
+            habitName: habitBeforeUpdate.name,
+            habitCategory: habitBeforeUpdate.category,
+            previousStreak: previousStreak,
+          }
+        }).then(({ data, error }) => {
+          if (error) {
+            console.error('Error generating recovery plan:', error);
+            setRecoveryModal(prev => ({
+              ...prev,
+              recoveryPlan: "1. Start fresh today - don't wait until tomorrow\n2. Set a reminder to help you remember\n3. Focus on just doing it once, then build from there",
+              isLoading: false,
+            }));
+          } else {
+            setRecoveryModal(prev => ({
+              ...prev,
+              recoveryPlan: data.recoveryPlan,
+              isLoading: false,
+            }));
+          }
+        });
+      }
+
+      return { updatedHabit, isCompleted };
     },
-    onSuccess: () => {
+    onSuccess: (data) => {
       queryClient.invalidateQueries({ queryKey: ["habit-logs", userId] });
+      queryClient.invalidateQueries({ queryKey: ["habits", userId] });
+      
+      // Check for milestone achievements (only when completing, not uncompleting)
+      if (data && !data.isCompleted && data.updatedHabit) {
+        const currentStreak = data.updatedHabit.current_streak || 0;
+        const milestones = [7, 30, 100];
+        
+        if (milestones.includes(currentStreak)) {
+          setCelebrationModal({
+            open: true,
+            milestone: currentStreak,
+            habitName: data.updatedHabit.name,
+          });
+        }
+      }
+      
       toast({
         title: "Success! 🎉",
         description: "Habit updated successfully.",
@@ -156,6 +247,21 @@ const HabitList = ({ userId }: HabitListProps) => {
         open={isAddDialogOpen}
         onOpenChange={setIsAddDialogOpen}
         userId={userId}
+      />
+
+      <CelebrationModal
+        open={celebrationModal.open}
+        onOpenChange={(open) => setCelebrationModal({ ...celebrationModal, open })}
+        milestone={celebrationModal.milestone}
+        habitName={celebrationModal.habitName}
+      />
+
+      <StreakRecoveryModal
+        open={recoveryModal.open}
+        onOpenChange={(open) => setRecoveryModal({ ...recoveryModal, open })}
+        habitName={recoveryModal.habitName}
+        recoveryPlan={recoveryModal.recoveryPlan}
+        isLoading={recoveryModal.isLoading}
       />
     </div>
   );
