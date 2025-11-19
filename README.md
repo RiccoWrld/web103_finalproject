@@ -29,7 +29,6 @@ Many people struggle to stay consistent, so we wanted to create something that m
 ---
 ## 🌟 Basic Features
 
-## 🌟 Basic Features
 ### 🪪 Authentication ✅
 Users will be able to create an account, log in, and securely access their personalized habit data.
 
@@ -41,6 +40,7 @@ Users can create new habits, update them, or remove them easily from their dashb
 
 ---
 ## 🔥 Bonus (Stretch Features)
+
 ### 💬 Motivational Quotes ✅
 Displays daily motivational quotes to encourage users and help maintain consistent habit-building momentum.
 
