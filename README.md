@@ -42,6 +42,7 @@ Users can create new habits, update them, or remove them easily from their dashb
 
 ---
 ## 🔥 Bonus (Stretch Features)
+
 ### 💬 Motivational Quotes ✅
 Displays daily motivational quotes to encourage users and help maintain consistent habit-building momentum.
 ![](gifs/Motivational-Quotes.gif)
