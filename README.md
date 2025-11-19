@@ -27,34 +27,40 @@ Many people struggle to stay consistent, so we wanted to create something that m
 - **Backend:** Express.js, Node.js, PostgreSQL
 
 ---
-
 ## 🌟 Basic Features
 
+## 🌟 Basic Features
 ### 🪪 Authentication ✅
 Users will be able to create an account, log in, and securely access their personalized habit data.
 
 ### 🧠 Habit Dashboard with Habit Cards ✅
 Users can view all their habits in one place with progress tracking and streak counts. Each habit will be displayed as a card showing its name, progress, category, and completion status, allowing users to easily track and manage their habits.
 
-### ➕ Add / Edit / Delete Habits ✅ 
+### ➕ Add / Edit / Delete Habits ✅
 Users can create new habits, update them, or remove them easily from their dashboard.
 
 ---
 ## 🔥 Bonus (Stretch Features)
+### 💬 Motivational Quotes ✅
+Displays daily motivational quotes to encourage users and help maintain consistent habit-building momentum.
 
-### Motivational Quotes ✅
+### 📊 Progress Bar and Streak Tracking ✅
+Visual indicators show how close users are to completing each habit and how long they’ve kept a streak going, motivating them to continue.
 
-### Progress Bar and Streak Tracking ✅
+### 🤖 AI Habit Coach Chatbot ✅
+An AI-powered assistant that guides users, answers questions, and offers personalized habit-building tips or suggestions.
 
-### AI Habit Coach Chatbot ✅
+### ✍️ AI Mood Reflection and Journaling ✅
+Allows users to log their mood and daily reflections. AI summarizes, analyzes patterns, and provides emotional or habit-based insights.
 
-### AI Mood Reflection and Journaling ✅
+### ⚡ AI-Powered Autocomplete for Habit Names ✅
+When users type a new habit, the system predicts and suggests common habit names to make creation faster and easier.
 
-### AI-Powered Autocomplete for Habit Names ✅
+### 🎨 AI-Powered Habit Naming and Description Generator ✅
+Generates creative, well-written habit names and descriptions based on user goals, helping them articulate habits more effectively.
 
-### AI-Powered Habit Naming and Description Generator ✅
-
-### Accoutability Heatmap ✅
+### 🔥 Accountability Heatmap ✅
+A visual heatmap showing activity levels over time, helping users see patterns in consistency and identify strong or weak periods in their habit-building journey.
 
 ---
 
