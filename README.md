@@ -28,35 +28,33 @@ Many people struggle to stay consistent, so we wanted to create something that m
 
 ---
 
-## 🌟 Features
+## 🌟 Basic Features
 
 ### 🪪 Authentication ✅
 Users will be able to create an account, log in, and securely access their personalized habit data.
-![](gifs/Authentication.gif)
 
-### 🧠 Habit Dashboard with Habit Cards ✅ 
+### 🧠 Habit Dashboard with Habit Cards ✅
 Users can view all their habits in one place with progress tracking and streak counts. Each habit will be displayed as a card showing its name, progress, category, and completion status, allowing users to easily track and manage their habits.
-![](gifs/Habit-Dashboard.gif)
 
 ### ➕ Add / Edit / Delete Habits ✅ 
 Users can create new habits, update them, or remove them easily from their dashboard.
-![](gifs/Add-Edit-Delete-Habits.gif)
-
-### 🔄 Mark as Completed ✅
-Users can mark habits as complete for the day **without leaving the dashboard** (handled on same page).
-![](gifs/Mark-as-Completed.gif)
-
-### 💬 Modal Confirmation ✅
-A confirmation modal appears when deleting a habit — no page navigation needed.
-![](gifs/Modal-Confirmation.gif)
-
 
 ---
-
 ## 🔥 Bonus (Stretch Features)
-- Show motivational quotes or toast messages after completing habits  
-- Progress bar animations for hero level  
-- User login with simple authentication
+
+### Motivational Quotes ✅
+
+### Progress Bar and Streak Tracking ✅
+
+### AI Habit Coach Chatbot ✅
+
+### AI Mood Reflection and Journaling ✅
+
+### AI-Powered Autocomplete for Habit Names ✅
+
+### AI-Powered Habit Naming and Description Generator ✅
+
+### Accoutability Heatmap ✅
 
 ---
 
