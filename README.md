@@ -5,7 +5,7 @@
 **Designed and developed by:**  
 Ricardo Beale, Vitaliy Prymak, Om Patki
 
-🔗 **Link to deployed app:** _coming soon_
+🔗 **Link to deployed app:** [_coming soon_](https://habitss-cxf1.onrender.com/dashboard)
 
 ---
 
