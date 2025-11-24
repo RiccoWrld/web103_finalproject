@@ -85,21 +85,16 @@ Complete the checklist below detailing each baseline, custom, and stretch featur
 ## Reflection
 
 ### 1. What went well during this unit?
-
-[👉🏾👉🏾👉🏾 your answer here]
+Our group communicated really well and divided responsibilities effectively. We were able to collaborate across the frontend and backend smoothly, and everyone contributed to shaping the final product. Once we aligned on the concept for HabitHero, the workflow felt natural and we made steady progress each week. Using tools like GitHub and pair programming helped us catch issues early and stay organized.
 
 ### 2. What were some challenges your group faced in this unit?
-
-[👉🏾👉🏾👉🏾 your answer here]
+One of the main challenges was integrating the frontend with the backend, especially making sure our API routes, database schema, and React components all worked together without breaking. We also faced some bugs around state management and data persistence, which took time to debug. Scheduling work sessions around everyone’s availability was another challenge, but we eventually found ways to coordinate effectively.
 
 ### 3. What were some of the highlights or achievements that you are most proud of in this project?
-
-[👉🏾👉🏾👉🏾 your answer here]
+I’m especially proud of how polished the final app feels. We built a fullstack project from scratch—React, Express, and PostgreSQL—which is a big milestone. Features like habit creation, editing, streak tracking, and the “hero growth” system turned out really well. It was also rewarding to deploy the app successfully and see everything working in a real-world environment. The fact that we combined functionality with a fun, game-like experience is something I’m proud of.
 
 ### 4. Reflecting on your web development journey so far, how have you grown since the beginning of the course?
-
-[👉🏾👉🏾👉🏾 your answer here]
+Since the beginning of the course, I’ve grown a lot in terms of technical confidence and problem-solving skills. Early on, concepts like routing, state management, and fullstack architecture felt intimidating. Now, I can build a complete project that connects a database to an API and a frontend UI. I’ve also become much more comfortable reading documentation, debugging errors, and collaborating using Git/GitHub. Overall, I feel more like an actual developer rather than just following tutorials.
 
 ### 5. Looking ahead, what are your goals related to web development, and what steps do you plan to take to achieve them?
-
-[👉🏾👉🏾👉🏾 your answer here]
+Going forward, I want to deepen my skills in fullstack development—especially strengthening my backend knowledge and learning more about authentication, optimization, and deployment. I also want to build more real projects to expand my portfolio. To reach these goals, I plan to continue practicing with personal projects, explore more advanced frameworks and tools, and seek feedback from developers who are more experienced. Ultimately, I want to keep improving so I can contribute to larger, more complex applications.
